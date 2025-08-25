@@ -81,7 +81,7 @@ async function sendEmail(solvedCount) {
 
 // schedule email sending at 4:40 PM
 cron.schedule("0 22 * * *", () => {
-  console.log("⏰ Running scheduled task at 4:40 PM...");
+  console.log("⏰ Running scheduled task at 10 PM...");
   checkDSA();
 });
 
